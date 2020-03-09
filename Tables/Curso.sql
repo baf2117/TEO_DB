@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `Curso` (
+  `id_curso` int(11) NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(30) DEFAULT NULL,
+  `Area` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`id_curso`)
+) ENGINE=InnoDB AUTO_INCREMENT=963 DEFAULT CHARSET=latin1;
